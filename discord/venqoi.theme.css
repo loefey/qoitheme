@@ -1,27 +1,15 @@
-/*         ▀▀█ █▀▀ █   █ █
-           ▄▀  █▀▀ █   █▀▄
-           ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
-/*--------------IMPORTS------------- */
 @import url(https://schnensch0.github.io/zelk/main.css);
 @import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
 :root {
-  /* set to 'unset' to show */
   --scrollbars: unset;
-  /* user notes */
   --notes: none;
-  /* direct message box */
   --message: none;
-  /* set to '4px solid' to show */
   --embed-color: --background-2;
-  /* set to 'Inter', sans-serif !important to use Inter font*/
   --font-primary: FiraCode Nerd Font, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-display: FiraCode Nerd Font, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   --border-radius-1: 10px;
   --border-radius-2: 8px;
 }
-/*-----------CUSTOM COLORS-----------*/
-/*-------------DARK MODE-------------*/
-/*---------------BASIC---------------*/
 .theme-dark {
   --accent-color: #d8c2ba;
   --background-1: #1f1b16;
@@ -29,7 +17,6 @@
   --background-accent: #1e2529;
   --border-color: #273034;
 }
-/*-------------LIGHT MODE------------*/
 .theme-light {
   --accent-color: #22c5fd;
   --background-1: #ffffff;
@@ -37,9 +24,7 @@
   --background-accent: var(--background-2);
   --border-color: transparent;
 }
-/*-------------ADVANCED--------------*/
 .theme-dark {
-  /* background */
   --background-primary: var(--background-1);
   --background-primary-alt: var(--background-1);
   --background-secondary: var(--background-1);
@@ -49,13 +34,11 @@
   --background-floating: var(--background-2);
   --background-mentioned: #bde6fb10;
   --background-mentioned-hover: #bde6fb15;
-  /* modifiers */
   --background-modifier-hover: #262e33;
   --background-modifier-active: #495a63;
   --background-modifier-selected: var(--background-2);
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
-  /* text */
   --text-normal: #8a8f88;
   --text-positive: var(--text-normal);
   --text-muted: #6d8692;
@@ -67,7 +50,6 @@
   --channels-default: var(--text-muted);
   --header-primary: #d8c2ba;
   --header-secondary: var(--text-muted);
-  /* more */
   --settings-icon-color: #d8c2ba;
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
@@ -75,7 +57,6 @@
   --switch: #3d4c53;
   --activity-card-background: var(--background-1);
   --brand-experiment: var(--accent-color) !important;
-  /* buttons */
   --button-background: #2a3439;
   --button-background-hover: #354249;
   --button-background-active: #4d5f68;
@@ -87,7 +68,6 @@
   --button-destructive-active: #fa4a4a;
 }
 .theme-light {
-  /* background */
   --background-primary: var(--background-1);
   --background-primary-alt: var(--background-1);
   --background-secondary: var(--background-2);
@@ -97,13 +77,11 @@
   --background-floating: var(--background-1);
   --background-mentioned: #22c5fd10;
   --background-mentioned-hover: #22c5fd15;
-  /* modifiers */
   --background-modifier-hover: transparent;
   --background-modifier-active: #b7c2cc;
   --background-modifier-selected: var(--accent-color);
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
-  /* text */
   --text-normal: #123354;
   --text-positive: var(--text-normal);
   --text-muted: #8495a7;
@@ -115,7 +93,6 @@
   --channels-default: var(--text-normal);
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
-  /* more */
   --settings-icon-color: #566e86;
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
@@ -123,7 +100,6 @@
   --switch: #c8d0d9;
   --activity-card-background: var(--background-1);
   --brand-experiment: var(--accent-color) !important;
-  /* buttons */
   --button-background: var(--background-1);
   --button-background-hover: #d3dae1;
   --button-background-active: #b1bcc8;
