@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Startup</title>
+    <style>
+      /* Additional CSS for image and information */
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px; /* Adjust as needed */
+        margin-bottom: 20px; /* Add space between image and information */
+      }
+
+      .image-container img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto; /* Adjust the width of the image */
+        height: auto; /* Adjust the height of the image */
+      }
+
+      .info-container {
+        margin-bottom: 20px; /* Add space between information */
+      }
+
+      body {
+        background-color: #1f1c15; /* Background color */
+        color: #8a8f88; /* Text color */
+      }
+
+      /* Button background color */
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        background-color: #2a261f; /* Background color */
+        border: 2px solid; /* Border */
+      }
+
+      /* Search box */
+      .search-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .search-input {
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        border: 2px solid #8a8f88; /* Border color */
+        background-color: #2a261f; /* Background color */
+        color: #8a8f88; /* Text color */
+        margin-right: 10px;
+        width: 200px; /* Adjust width as needed */
+        outline: none; /* Remove outline when focused */
+      }
+
+      .search-input::placeholder {
+        color: #8a8f88; /* Placeholder text color */
+      }
+
+      .search-input:focus::placeholder {
+        color: #8a8f88; /* Change placeholder text color when input is focused */
+        transition: color 0.5s ease; /* Add transition effect */
+      }
+
+      .search-button {
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        background-color: #2a261f; /* Background color */
+        color: #8a8f88; /* Text color */
+        border: 2px solid #8a8f88; /* Border */
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col items-center justify-center min-h-screen px-4 py-10 mx-auto">
+    <!-- Top content -->
+    <section class="w-full mb-4 font-bold text-center">
+      <!-- Image -->
+      <div class="image-container">
+        <img src="img/racc.png" alt="Your Image" />
+      </div>
+      
+      <!-- Short information -->
+      <div class="info-container flex flex-col items-center justify-center max-w-sm gap-4 mx-auto mb-10 md:flex-row md:max-w-2xl">
+        <!-- Username -->
+        <span class="button" id="username_button"
+          ><span class="icon-[ri--user-3-fill]"> </span><span id="username_data">XX</span></span
+        >
+        <!-- Weather -->
+        <span class="button" id="weather_button">
+          <span class="icon-[ri--sun-fill]"></span><span id="weather_data">XX°C</span>
+        </span>
+        <!-- Time -->
+        <span class="button" id="time_button">
+          <span class="icon-[ri--time-fill]"></span><span id="time_data">XX:XX</span>
+        </span>
+        <!-- Date -->
+        <span class="button" id="date_button">
+          <span class="icon-[ri--calendar-2-fill]"></span><span id="date_data">XX XX</span>
+        </span>
+      </div>
+
+      <!-- Search box -->
+      <div class="search-container">
+        <form action="https://www.google.com/search" method="GET">
+          <input type="text" name="q" class="search-input" placeholder="do a silly find..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'do a silly find...'" />
+          <button type="submit" class="search-button">Search</button>
+        </form>
+      </div>
+    </section>
+    <!-- Bottom Section -->
+    <section class="flex flex-col items-stretch justify-center w-full max-w-sm gap-4 mx-auto md:flex-row md:max-w-2xl h-72">
+      <div class="grid items-center justify-center w-full h-full grid-cols-2 gap-4 md:grid-cols-4" id="links_grid">
+        <!-- Links are dynamically added here -->
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="./js/getUserData.js"></script>
+    <script src="./js/getBadges.js"></script>
+    <script>
+      // Function to update the time
+      function updateTime() {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var ampm = hours >= 12 ? 'PM' : 'AM';
+        hours = hours % 12;
+        hours = hours ? hours : 12; // Handle midnight
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        var timeString = hours + ':' + minutes + ' ' + ampm;
+        document.getElementById('time_data').textContent = timeString;
+      }
+
+      // Update time initially
+      updateTime();
+
+      // Update time every second
+      setInterval(updateTime, 1000);
+    </script>
+  </body>
+</html>
