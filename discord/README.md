@@ -1,4 +1,5 @@
 # Theme for discord
+This theme is based on [Zelk](https://github.com/schnensch0/zelk)
 
 ![discord](../_screenshots/discord.png)
 
