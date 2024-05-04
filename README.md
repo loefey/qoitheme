@@ -10,5 +10,5 @@
 ## things built with qoitheme
 - Start page for your browser themed like  - [repo](https://github.com/venqoi/qoitheme/tree/main/startpage)
 
-## rosebox in the wild
+## qoitheme in the wild
 - **_Firefox_**/**_Floorp_** **Theme** - [Mozilla Add-ons link](https://addons.mozilla.org/en-CA/firefox/addon/qoitheme/)
