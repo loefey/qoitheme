@@ -1,4 +1,4 @@
-# Qoitheme# Qoitheme
+# Qoitheme
 
 
 > qoitheme is a color theme based on my many websites, there is themes for multiple applications and websites  
