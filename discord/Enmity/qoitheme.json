@@ -6,13 +6,14 @@
 	"spec": 2,
 	"semanticColors": {
 		"BACKGROUND_PRIMARY": [ "#1f1b15", "#1f1b15" ],
+        "SETTINGS_ICON_COLOR": [ "#d8c2ba", "#d8c2ba" ],
 		"BACKGROUND_SECONDARY": [ "#2a261f", "#2a261f" ],
-		"HEADER_PRIMARY": [ "#FFFFFF", "#FFFFFF" ],
-		"INTERACTIVE_ACTIVE": [ "#FFFFFF", "#FFFFFF" ],
-		"INTERACTIVE_NORMAL": [ "#C8C8C8", "#C8C8C8" ],
+		"HEADER_PRIMARY": [ "#d8c2ba", "#d8c2ba" ],
+		"INTERACTIVE_ACTIVE": [ "#d8c2ba", "#d8c2ba" ],
+		"INTERACTIVE_NORMAL": [ "#d8c2ba", "#d8c2ba" ],
 		"KEYBOARD": [ "#2a261f", "#2a261f" ],
-		"TEXT_MUTED": [ "#FFFFFF", "#FFFFFF" ],
-		"TEXT_NORMAL": [ "#FFFFFF", "#FFFFFF" ]
+		"TEXT_MUTED": [ "#6d8692", "#6d8692" ],
+		"TEXT_NORMAL": [ "#8a8f88", "#8a8f88" ]
 	},
 	"rawColors": {
 		"PRIMARY_600": "#00B344",
