@@ -90,8 +90,8 @@
 			"transparent"
 		  ],
 		  "CHANNELS_DEFAULT": [
-			"#6d8692",
-			"#123354"
+			"#1d1b15",
+			"#1d1b15"
 		  ],
 		  "SETTINGS_ICON_COLOR": [
 			"#d8c2ba",
@@ -163,4 +163,3 @@
 		  "CHAT_GREY": "#171722"
 		}
 	  }
-	  
