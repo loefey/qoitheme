@@ -6,11 +6,11 @@
 	"spec": 2,
 	"semanticColors": {
 		"BACKGROUND_PRIMARY": [ "#1f1b15", "#1f1b15" ],
-		"BACKGROUND_SECONDARY": [ "#0D0D0D", "#0D0D0D" ],
+		"BACKGROUND_SECONDARY": [ "#2a261f", "#2a261f" ],
 		"HEADER_PRIMARY": [ "#FFFFFF", "#FFFFFF" ],
 		"INTERACTIVE_ACTIVE": [ "#FFFFFF", "#FFFFFF" ],
 		"INTERACTIVE_NORMAL": [ "#C8C8C8", "#C8C8C8" ],
-		"KEYBOARD": [ "#0D0D0D", "#0D0D0D" ],
+		"KEYBOARD": [ "#2a261f", "#2a261f" ],
 		"TEXT_MUTED": [ "#FFFFFF", "#FFFFFF" ],
 		"TEXT_NORMAL": [ "#FFFFFF", "#FFFFFF" ]
 	},
