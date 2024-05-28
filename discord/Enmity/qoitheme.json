@@ -20,8 +20,8 @@
 		"TEXT_NORMAL": [ "#8a8f88", "#8a8f88" ]
 	},
 	"rawColors": {
-		"PRIMARY_600": "#00B344",
-		"PRIMARY_660": "#3A496B",
+		"PRIMARY_600": "#1f1b15",
+		"PRIMARY_660": "#1f1b15",
 		"BRAND_360": "#3A496B",
 		"BRAND_500": "#3A496B",
 		"BRAND_560": "#3A496B",
