@@ -140,7 +140,16 @@
 		  "BUTTON_DESTRUCTIVE_ACTIVE": [
 			"#fa4a4a",
 			"#fa4a4a"
+		  ],
+		  "CARD_SECONDARY_BG": [
+			"#1e1b15"
+		  ],
+		  "CARD_PRIMARY_BG": [
+			"#1e1b15"
 		  ]
+
+
+		  
 		},
 		"colours": {
 		  "PRIMARY_DARK": "#747474",
@@ -160,6 +169,7 @@
 		  "STATUS_YELLOW": "#c18ea4"
 		},
 		"unsafe_colors": {
-		  "CHAT_GREY": "#171722"
+		  "CHAT_GREY": "#171722",
+		  "PLUM_20": "#1e1b15"
 		}
 	  }
