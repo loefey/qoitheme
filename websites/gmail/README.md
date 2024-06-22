@@ -22,7 +22,7 @@ Install [Stylus](https://github.com/openstyles/stylus) for your browser by click
 
 
 
-Switch to a default GitHub light/dark theme via **Settings** > **Appearance** for the best experience!
+Switch to either the dark or default themes via the **gear icon** > **themes** > **view all** for the best experience!
 
 1. Enable CSP Patching from `Stylus Settings` > `Advanced`.
 2. Install the theme:
