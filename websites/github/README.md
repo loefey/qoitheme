@@ -13,7 +13,7 @@
 Install [Stylus](https://github.com/openstyles/stylus) for your browser by clicking one of the badges below.
 
 <p align="center">
-  <a href="https://addons.mozilla.org/en-GB/firefox/addon/styl-us/"><img src="https://img.shields.io/badge/Firefox_Add--ons-1f1c16?style=for-the-badge&logo=Firefox-Browser&logoColor=d8c2ba"></a>
+  <a href="https://addons.mozilla.org/en-GB/firefox/addon/styl-us/"><img src="https://img.shields.io/badge/Firefox_Add--ons-2e2a23?style=for-the-badge&logo=Firefox-Browser&logoColor=d8c2ba"></a>
   <a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne"><img src="https://img.shields.io/badge/Chrome_Web_Store-d8c2ba?style=for-the-badge&logo=GoogleChrome&logoColor=24273a"></a>
 </p>
 
