@@ -1,12 +1,13 @@
 @import url(https://venqoi.github.io/qoitheme/discord/main.css);
 @import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
+@import url(https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap);
 :root {
   --scrollbars: unset;
   --notes: none;
   --message: none;
   --embed-color: --background-2;
-  --font-primary: FiraCode Nerd Font, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: FiraCode Nerd Font, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  --font-primary: 'Karla', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: 'Karla', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   --border-radius-1: 10px;
   --border-radius-2: 8px;
 }
