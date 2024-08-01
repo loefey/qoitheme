@@ -8,6 +8,7 @@
   --embed-color: --background-2;
   --font-primary: 'Karla', "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-display: 'Karla', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  --channeltextarea-background: var(--background-2);
   --border-radius-1: 10px;
   --border-radius-2: 8px;
 }
