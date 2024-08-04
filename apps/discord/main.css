@@ -20,6 +20,9 @@
   margin-left: 10px;
   background-color: var(--background-primary) !important;
 }
+.numberBadge_df8943 {
+    --status-danger: var(--accent-color);
+}
 .scroller-WSmht3 {
   border-radius: var(--border-radius-1) var(--border-radius-1) 0 0;
 }
