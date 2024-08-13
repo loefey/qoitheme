@@ -14,7 +14,7 @@ https://venqoi.github.io/qoitheme/discord/venqoi.theme.css
   
 ### 2. CSS Import Link:
 ```css 
-@import url('https://venqoi.github.io/qoitheme/discord/venqoi.theme.css');
+@import url('https://venqoi.github.io/qoitheme/apps/discord/venqoi.theme.css');
 ```  
 - Vencord QuickCSS: [link](https://github.com/Vendicated/Vencord) > `Settings` > `Vencord` > Enable `Use QuickCSS` > Click `Open QuickCSS File` > paste this link at the top
 - Replugged QuickCSS: [link](https://replugged.dev) > `Settings` > `QuickCSS` Tab > paste this link at the top > Click `Apply Changes` button
