@@ -45,7 +45,7 @@
   --text-positive: var(--text-normal);
   --text-muted: #6d8692;
   --text-link: #d8c2ba;
-  --interactive-selected: var(--background-primary);
+  --interactive-selected: var(--background-tertiary);
   --interactive-active: #d8c2ba;
   --interactive-normal: #d8c2ba;
   --interactive-muted: var(--button-background-active);
