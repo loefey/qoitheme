@@ -1,5 +1,5 @@
 <h3 align="center">
-<img src="https://raw.githubusercontent.com/venqoi/qoitheme/main/_screenshots/Qoilogo.png" width="150" alt="Logo" style="border-radius: 50%;"/><br/>
+<img src="https://raw.githubusercontent.com/loefey/qoitheme/main/_screenshots/Qoilogo.png" width="150" alt="Logo" style="border-radius: 50%;"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
   Qoitheme for <a href="https://github.com">GitHub</a>
 </h3>
@@ -26,7 +26,7 @@ Switch to a default GitHub light/dark theme via **Settings** > **Appearance** fo
 
 1. Enable CSP Patching from `Stylus Settings` > `Advanced`.
 2. Install the theme:
-- Install via [link](https://github.com/venqoi/qoitheme/raw/main/websites/github/github.user.css)   
+- Install via [link](https://github.com/loefey/qoitheme/raw/main/websites/github/github.user.css)   
 - `https://github.com/venqoi/qoitheme/raw/main/websites/github/github.user.css`
 3. Enjoy!
 
